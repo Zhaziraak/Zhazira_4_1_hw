@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.ThirdFragment">
+
+    <TextView
+        android:id="@+id/tv_call"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call center" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_call"
+        android:drawablePadding="10dp"
+        android:id="@+id/tv_number"
+        android:textSize="30sp"
+        android:drawableTint="@color/white"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8787" />
+
+</LinearLayout>
